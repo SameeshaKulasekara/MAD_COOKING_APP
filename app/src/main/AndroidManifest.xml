@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.projectmad">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProjectMad">
+        <activity
+            android:name=".activities.driver.DeliveryDetails"
+            android:exported="false" />
+        <activity
+            android:name=".activities.category.MenuJuice"
+            android:exported="false" />
+        <activity
+            android:name=".activities.category.CategoryMenu"
+            android:exported="false" />
+        <activity
+            android:name=".activities.feedback.FeedbackView"
+            android:exported="false" />
+        <activity
+            android:name=".NewCategoryPage"
+            android:exported="false" />
+        <activity
+            android:name=".activities.payment.ViewYourOrder"
+            android:exported="false" />
+        <activity
+            android:name=".SaladB"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".ViewDetails" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".SaladA"
+            android:exported="false" /> <!-- <activity -->
+        <!-- android:name=".ViewDetails" -->
+        <!-- android:exported="false" /> -->
+        <activity
+            android:name=".PaymentSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".activities.payment.YourCart"
+            android:exported="false" />
+        <activity
+            android:name=".activities.feedback.FeedbackHome"
+            android:exported="false" />
+        <activity
+            android:name=".activities.payment.MakePayment"
+            android:exported="false" />
+        <activity
+            android:name=".RiceRecipe2"
+            android:exported="false" />
+        <activity
+            android:name=".RiceRecipe1"
+            android:exported="false" />
+        <activity
+            android:name=".order_card"
+            android:exported="false" />
+        <activity
+            android:name=".DeleteOrder"
+            android:exported="false" />
+        <activity
+            android:name=".activities.payment.OrderHistory"
+            android:exported="false" />
+        <activity
+            android:name=".BiscuitPudding"
+            android:exported="false" />
+        <activity
+            android:name=".JuiceRecipe2"
+            android:exported="false" />
+        <activity
+            android:name=".Watalappan"
+            android:exported="false" />
+        <activity
+            android:name=".activities.feedback.FeedbackSuccesfully"
+            android:exported="false" />
+        <activity
+            android:name=".activities.feedback.AllFeedbacks"
+            android:exported="false" />
+        <activity
+            android:name=".activities.feedback.SendFeedback"
+            android:exported="false" />
+        <activity
+            android:name=".activities.feedback.FeedbackRating"
+            android:exported="false" />
+        <activity
+            android:name=".activities.user.LoginPage"
+            android:exported="false" />
+        <activity
+            android:name=".activities.driver.DeliveryOrdersView"
+            android:exported="false" />
+        <activity
+            android:name=".OrdersView"
+            android:exported="false" />
+        <activity
+            android:name=".CategoryPage"
+            android:exported="false" />
+        <activity
+            android:name=".AddToCart"
+            android:exported="false" />
+        <activity
+            android:name=".JuiceRecipe1"
+            android:exported="false" />
+        <activity
+            android:name=".DriverHome"
+            android:exported="false" />
+        <activity
+            android:name=".recipe_page_1"
+            android:exported="false" />
+        <activity
+            android:name=".Driver_agriment"
+            android:exported="false" />
+        <activity
+            android:name=".activities.HomePage"
+            android:exported="false" />
+        <activity
+            android:name=".activities.driver.DriverRegisterPage"
+            android:exported="false" />
+        <activity
+            android:name=".Driver_Login_page"
+            android:exported="false" />
+        <activity
+            android:name=".activities.user.Register"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activities.SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

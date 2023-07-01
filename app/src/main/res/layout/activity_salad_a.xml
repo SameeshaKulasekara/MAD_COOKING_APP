@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white">
+<!--    tools:context=".JuiceRecipe1">-->
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="203dp"
+        android:layout_height="142dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/salad1" />
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="204dp"
+        android:layout_height="92dp"
+        android:layout_marginBottom="8dp"
+        android:text="Creamy French onion chicken salad"
+        android:textColor="#294013"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="414dp"
+        android:layout_height="96dp"
+        android:layout_marginTop="8dp"
+        android:text="Creamy French onion chicken salad
+Specially for dinner table and parties.
+this will help for people who follow diet plan"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="Ingredients"
+        android:textColor="#6E6D06"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_02" />
+
+    <TextView
+        android:id="@+id/tv_04"
+        android:layout_width="407dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="12dp"
+        android:text="2 thick slices (about 200g) sourdough bread, cut into 2.5cm piece,
+1 1/2 tbsp olive oil,40g (1/2 cup) coarsely grated cheddar,200g rindless bacon rashers, coarsely chopped,130g (1/2 cup) sour cream"
+
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_03" />
+
+    <TextView
+        android:id="@+id/tv_06"
+        android:layout_width="159dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="12dp"
+        android:text="Method"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.019"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_04" />
+
+    <TextView
+        android:id="@+id/tv_07"
+        android:layout_width="396dp"
+        android:layout_height="245dp"
+        android:layout_marginTop="8dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Preheat oven to 200C/180C fan forced. Line a baking tray with baking paper. Place bread
+
+, in a single layer, on prepared tray. Drizzle over 1 tbsp oil and toss to coat. Sprinkle with cheese. Bake for 15-20 minutes or until the bread is golden and crisp. Set aside to cool. Separate croutons.
+
+Meanwhile, heat remaining oil in a frying pan over medium-high heat. Cook bacon, stirring occasionally, for 5 minutes or until golden.
+Place sour cream, mayonnaise, soup mix and lemon juice in a small jug. Season. Stir to combine"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_06" />
+
+    <Button
+        android:id="@+id/btn_back2"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_07"
+        app:layout_constraintVertical_bias="0.719" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

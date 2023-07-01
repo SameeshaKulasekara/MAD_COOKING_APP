@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">project mad</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="cvc">cvc</string>
+    <string name="add_your_details">Add Your Details</string>
+    <string name="enter_your_phone_no">Enter Your phone no</string>
+    <string name="enter_your_card_number">Enter Your Card number</string>
+    <string name="enter_your_address">Enter Your Address</string>
+    <string name="tv_01">Carrot Juice</string>
+    <string name="tv_02">Carrot juice provides a colorful and nutritious start to your day. A glass of it offers valuable nutrition and a slightly sweet, earthy taste you know right away.</string>
+    <string name="tv_03">Ingredients</string>
+    <string name="tv_04">Carrot , 1 oz celery , 0.25 oz ginger , 1 tbsp sugar, 4 oz ice cubes</string>
+    <string name="btn_r01">Back</string>
+    <string name="btn_r02">Back</string>
+    <string name="tv_ordr01">Order History</string>
+    <string name="btn_ordr1">Add Order</string>
+    <string name="et_ordr01" />
+    <string name="et_ordr2" />
+    <string name="et_ordr3" />
+    <string name="btn_ordr2"><![CDATA[See More>>]]></string>
+    <string name="tv_od01">Your Order</string>
+    <string name="btn_od01">OK</string>
+    <string name="btn_od02">Cancel</string>
+    <string name="tv_od02">Watalappan with cashews</string>
+    <string name="tv_od03">LKR 450.00</string>
+    <string name="tv_od04">You can cancel your order within 30 minutes.</string>
+    <string name="tv_od05">Qty 02</string>
+    <string name="tv_cat01">Category</string>
+    <string name="tv_cat02">Juice</string>
+    <string name="tv_cat03">Carrot Juice</string>
+    <string name="tv_cat04">LKR 250.00</string>
+    <string name="btn_cat01">View</string>
+    <string name="btn_cat02">add to cart</string>
+    <string name="tv_cat05">Apple Juice</string>
+    <string name="tv_cat06">LKR 350.00</string>
+    <string name="btn_cat03">VIEW</string>
+    <string name="btn_cat04">add to cart</string>
+    <string name="tv_cat07">Dessert</string>
+    <string name="tv_cat08">Watalappan</string>
+    <string name="tv_cat09">LKR 400.00</string>
+    <string name="tv_cat11">LKR 450.00</string>
+    <string name="tv_cat10">Buscuit Pudding</string>
+    <string name="tv_cat12">Rice</string>
+    <string name="tv_cat13">Coconut Rice</string>
+    <string name="tv_cat14">LKR 550.00</string>
+    <string name="tv_cat15">Yellow Rice</string>
+    <string name="tv_cat16">LKR 600.00</string>
+    <string name="tv_cat17">Salad</string>
+    <string name="tv_cat18">French Onion Chicken Salad</string>
+    <string name="tv_cat19">LKR 900.00</string>
+    <string name="tv_cat20">Chicken and Mongo Salad</string>
+    <string name="tv_cat21">LKR 850.00</string>
+    <string name="tv_cat23">Chicken Massaman Curry</string>
+
+
+    <string name="tv_1">Feedback</string>
+    <string name="tvbtn_1">ADD FEEDBACK AND YOUR RATE</string>
+    <string name="tvbtn_2">NEXT</string>
+
+    <string name="tv_001">Feedback</string>
+    <string name="tv_003">How is your first impression of the CooKing ?</string>
+    <string name="tvRatingBar_02">Ratingbar</string>
+
+    <string name="tv_06">Send Feedback</string>
+    <string name="tv_07">Full Name</string>
+    <string name="tv_08">Email</string>
+    <string name="tv_09">Phone</string>
+    <string name="tv_10">How many stars would you give to them?</string>
+    <string name="tvRatingBar_01">RatingBar</string>
+    <string name="tv_11">Discribe your experience (optional) ?</string>
+    <string name="tv_12">We would love to hear your suggestion!...</string>
+    <string name="tvbtn_05">SEND FEEDBACK</string>
+    <string name="tv_13">Your review will be posted to the Google Play Store</string>
+
+    <string name="tv_16">ThankYou</string>
+    <string name="tv_17">Your Feedback was Successfully Submitted</string>
+    <string name="tvbtn_07">BACK TO HOME</string>
+    <string name="tvbtn_08">VIEW</string>
+
+    <string name="tv_20">Biscute Pudding</string>
+    <string name="tv_21">Gooey chocolate Icing mixed with biscuits is a great pudding ideal for tempting your taste buds.</string>
+    <string name="tv_22">Ingredients</string>
+    <string name="tv_23">200g Icing sugar, 100g Margarine or butter, 300g Marie biscuits, 300 ml Hot milk, 50g Chopped cashew nuts to decorate, 1 1/2 tsp Cocoa powder</string>
+    <string name="tv_24">Direction</string>
+    <string name="tv_25">Sieve the icing sugar two times and add it to a bowl. And then put the margarine to the same bowl,followed by coca powder and make chocolate icing. Pour some hot milk(maintain the hotness in the milk by heating or boiling it up several times) in to a large plate and soak part of the biscuits(100g first). When you see the biscuits are bigger,remove and arrange them in the bottom of the pudding bowl. Fill the( arrange the biscuits in a round)bottom with soaked biscuits. Wait one or two minutes(to remove the hotness of the biscuits). Apply a very thin layer of chocolate icing. Make sure you cover the biscuit layer in the bottom also. Then take other 200g of biscuits and soak them in hot milk and fill a thick layer of as in the step two. Then apply the remaining chocolate icing on the top of the pudding bowl. Scatter the chopped cashew nuts on the top.Allow the pudding to chill for 30 minutes or more and enjoy.</string>
+    <string name="tvbackbtn_001">BACK</string>
+
+    <string name="tv_26">Watalappan</string>
+    <string name="tv_27">Though Watalappan is very popular among Muslims and is a part of traditional Ramadan celebrations, Sri Lankan Watalappan is loved by many all over the world. There are many ways to make this amazing dessert with different ingredients. This is the original Watalappan recipe with Kithul jaggery.</string>
+    <string name="tv_28">Ingredients</string>
+    <string name="tv_29">Thick coconut milk 260ml, Kithul jaggery 340g, Medium size eggs 05, Cloves 07, Cardamom 06, Cinnamon stick, Salt ¼ tsp, Vanilla – ¼ tsp, Cashew 75g</string>
+    <string name="tv_30">Direction</string>
+    <string name="tv_31">Roast cardamom, cloves and cinnamon stick a bit and grind. Grate jaggery. Melt grated jaggery in coconut milk. Whisk eggs lightly around 03-05 mins till frothy. Don’t use an electric beater for this. If so, they will be over beaten. Add eggs to the jaggery mixture. Then add ground cardamom, cloves and cinnamon. Add salt and vanilla. Strain the Watalappan mixture to another bowl. Add chopped cashew. Grease the mould with some butter or margarine. Add some grated jaggery to the bottom of the mould. Pour the Watalappan mixture into this mould. Cover the mould with an aluminium foil and seal the edges. It needs to steam this around 01 hour under medium heat. Steaming time depends on the mould you select. If it is a deep one it takes more time and if it is a flat one like a baking tray this takes only around 20-30 mins. If you use the oven bake this around 40-45 mins under 180° C. After steaming insert a knife or a toothpick in the middle. If it comes out clean Watalappan is cooked enough. If not steam more. After steaming let this cool down completely and then keep in the fridge around 02-03 hours to set. Now we can get the Watalappan out of the mould and decorate with some cashew.</string>
+    <string name="tvbackbtn_02">BACK</string>
+
+
+</resources>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white"
+    tools:context=".JuiceRecipe1">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="251dp"
+        android:layout_height="141dp"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/juice1" />
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="140dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        android:text="@string/tv_01"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.955"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.623" />
+
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="412dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tv_02"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/tv_03"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_02" />
+
+    <TextView
+        android:id="@+id/tv_04"
+        android:layout_width="398dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/tv_04"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.076"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_03" />
+
+    <TextView
+        android:id="@+id/tv_06"
+        android:layout_width="159dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="16dp"
+        android:text="Direcion"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.063"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_04" />
+
+    <TextView
+        android:id="@+id/tv_07"
+        android:layout_width="410dp"
+        android:layout_height="227dp"
+        android:layout_marginTop="12dp"
+        android:text="Wash everything thoroughly with clean water.Peel and cut the carrots into quarters, vertically. Peel the apple and slice them into chunks. Chop the celery ribs into 3 equal parts. Scrape off the skin of the ginger.Run all the ingredients through an intoxicating juicer.Stir to mix the juice up. Divide the juice into small portions, add ice cubes, and enjoy. Preserve the leftover juice in an airtight jar to avoid oxidation.
+"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_06" />
+
+    <Button
+        android:id="@+id/btn_r04"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="@string/btn_r01"
+        android:onClick="goToBack"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_07"
+        app:layout_constraintVertical_bias="0.719" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

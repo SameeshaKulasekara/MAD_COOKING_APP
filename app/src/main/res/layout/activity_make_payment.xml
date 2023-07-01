@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.payment.MakePayment">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="618dp"
+        android:layout_height="862dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.422"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/back_img" />
+
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="423dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="text"
+        android:hint="@string/enter_your_address"
+        android:textColorHint="#F3E9E9"
+        android:textColor="#F3E9E9"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.165" />
+
+    <EditText
+        android:id="@+id/cardNo"
+        android:layout_width="423dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/enter_your_card_number"
+        android:textColorHint="#F3E9E9"
+        android:textColor="#F3E9E9"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.202"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.361" />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="418dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="@string/enter_your_phone_no"
+        android:textColorHint="#F6F3F3"
+        android:textColor="#F6F3F3"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.19"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.261" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="68dp"
+        android:fontFamily="sans-serif-black"
+        android:text="@string/add_your_details"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.318"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.02" />
+
+
+    <Button
+        android:id="@+id/payNow"
+        android:layout_width="128dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#AE4D8B"
+        android:text="@string/pay_now"
+        app:iconTint="#FF8A80"
+        android:onClick="completePaymenet"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.906"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <Button
+        android:id="@+id/cancel1"
+        android:layout_width="128dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#AE4D8B"
+        android:text="cancel"
+        app:iconTint="#FF8A80"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.053"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714" />
+
+    <EditText
+        android:id="@+id/expDate"
+        android:layout_width="217dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:inputType="date"
+        android:textColorHint="#F4EFEF"
+        android:textColor="#F4EFEF"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.056"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.472"
+        android:hint="expiry date MM/YY" />
+
+    <EditText
+        android:id="@+id/cvc"
+        android:layout_width="171dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="@string/cvc"
+        android:textColorHint="#F1F0F0"
+        android:textColor="#F1F0F0"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.537"
+        app:layout_constraintStart_toEndOf="@+id/expDate"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.473" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/card1"-->
+<!--        android:layout_width="85dp"-->
+<!--        android:layout_height="39dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.354"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/expDate"-->
+<!--        app:layout_constraintVertical_bias="0.073"-->
+<!--        app:srcCompat="@drawable/images" />-->
+
+<!--    <ImageView-->
+<!--        android:id="@+id/card2"-->
+<!--        android:layout_width="72dp"-->
+<!--        android:layout_height="45dp"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.742"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent"-->
+<!--        app:layout_constraintVertical_bias="0.563"-->
+<!--        app:srcCompat="@drawable/images1" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioBtn1"-->
+<!--        android:labelFor="@+id/qw"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:buttonTint="@color/white"-->
+<!--        android:textColor="#E8E3E3"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.261"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/expDate"-->
+<!--        app:layout_constraintVertical_bias="0.064" />-->
+
+<!--    <RadioButton-->
+<!--        android:id="@+id/radioBtn2"-->
+<!--        android:labelFor="@+id/qw"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:backgroundTint="@color/white"-->
+<!--        android:buttonTint="@color/white"-->
+<!--        android:textColor="#E8E3E3"-->
+<!--        android:textStyle="bold"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintHorizontal_bias="0.603"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/expDate"-->
+<!--        app:layout_constraintVertical_bias="0.061" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

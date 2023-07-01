@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DCDBDB"
+    tools:context=".activities.feedback.FeedbackHome">
+
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="175dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/tv_1"
+        android:textColor="#101010"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.103"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tvimageView_06"
+        android:layout_width="422dp"
+        android:layout_height="333dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_1"
+        app:layout_constraintVertical_bias="0.096"
+        app:srcCompat="@drawable/feedback_background" />
+
+    <Button
+        android:id="@+id/add_rating"
+        android:layout_width="324dp"
+        android:layout_height="59dp"
+        android:onClick="goToAddFeedback"
+        android:text="@string/tvbtn_1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvimageView_06"
+        app:layout_constraintVertical_bias="0.592" />
+
+    <Button
+        android:id="@+id/view_all_ratings"
+        android:layout_width="324dp"
+        android:layout_height="59dp"
+        android:onClick="goToMyRatings"
+        android:text="View Ratings"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvimageView_06"
+        app:layout_constraintVertical_bias="0.123" />
+</androidx.constraintlayout.widget.ConstraintLayout>

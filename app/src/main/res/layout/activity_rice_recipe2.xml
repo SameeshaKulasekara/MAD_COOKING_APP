@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RiceRecipe2">
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="271dp"
+        android:layout_height="150dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/yellow_rice" />
+
+    <TextView
+        android:id="@+id/tv_01"
+        android:layout_width="140dp"
+        android:layout_height="33dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:text="Yellow Rice"
+        android:textColor="@color/black"
+        android:textSize="21sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.265"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/tv_02"
+        android:layout_width="412dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="8dp"
+        android:foregroundGravity="center"
+        android:text="It is a good source of minerals including calcium, iron, magnesium, phosphorus, potassium, sodium and zinc. Vitamins in yellow rice include thiamine, riboflavin, niacin, vitamin B-6 and folate."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="fill_vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9" />
+
+    <TextView
+        android:id="@+id/tv_03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_03"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_02" />
+
+    <TextView
+        android:id="@+id/tv_04"
+        android:layout_width="402dp"
+        android:layout_height="104dp"
+        android:layout_marginTop="20dp"
+        android:text="3 tablespoons butter,1 cup long-grain white rice,1 teaspoon fresh minced garlic,1 teaspoon onion powder or dried minced onion,1 teaspoon ground turmeric,2 cups chicken broth,1/2 teaspoon Kosher salt or to taste,ground black pepper to taste,2-3 tablespoons fresh cilantro chopped"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_03" />
+
+    <TextView
+        android:id="@+id/tv_06"
+        android:layout_width="159dp"
+        android:layout_height="28dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/tv_06"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_04" />
+
+    <TextView
+        android:id="@+id/tv_07"
+        android:layout_width="407dp"
+        android:layout_height="184dp"
+        android:layout_marginTop="8dp"
+        android:text="Heat butter in a large saucepan and add the rice and gently stir until rice begins to lightly brown.Add garlic, onion powder, and turmeric and stir until well mixed in.Slowly stir in chicken broth and raise heat to medium-high. Add salt and pepper to taste. Bring the mix to a boil then turn the heat to low and cover the pan with a lid. Simmer for 20 to 25 minutes.Remove from heat and add cilantro, and fluff with a fork. Serve it."
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_06" />
+
+    <Button
+        android:id="@+id/btn_r04"
+        android:layout_width="143dp"
+        android:layout_height="50dp"
+        android:text="@string/btn_r01"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_07"
+        app:layout_constraintVertical_bias="0.458" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

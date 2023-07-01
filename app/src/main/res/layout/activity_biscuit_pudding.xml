@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/white">
+
+
+    <ImageView
+        android:id="@+id/tvimageView_05"
+        android:layout_width="210dp"
+        android:layout_height="179dp"
+        app:layout_constraintBottom_toTopOf="@+id/tv_27"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/biscuite_pudding" />
+
+
+    <TextView
+        android:id="@+id/tv_20"
+        android:layout_width="205dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="104dp"
+        android:text="@string/tv_20"
+        android:textColor="#0B0A0A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_27"
+        android:layout_width="388dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="180dp"
+        android:text="@string/tv_21"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.421"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_22"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_27" />
+
+    <TextView
+        android:id="@+id/tv_29"
+        android:layout_width="390dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tv_23"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_28" />
+
+    <TextView
+        android:id="@+id/tv_30"
+        android:layout_width="133dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/tv_24"
+        android:textColor="@android:color/holo_purple"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.032"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_29" />
+
+    <TextView
+        android:id="@+id/tv_31"
+        android:layout_width="393dp"
+        android:layout_height="279dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/tv_25"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_30" />
+
+    <Button
+        android:id="@+id/tvbackbtn_001"
+        android:layout_width="124dp"
+        android:layout_height="48dp"
+        android:text="@string/tvbackbtn_001"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_31"
+        app:layout_constraintVertical_bias="0.384" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

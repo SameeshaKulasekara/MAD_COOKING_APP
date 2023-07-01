@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4E3E3"
+    tools:context=".activities.feedback.FeedbackRating">
+
+    <TextView
+        android:id="@+id/tv_001"
+        android:layout_width="171dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/tv_001"
+        android:textColor="#090909"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/tvmageView_002"
+        android:layout_width="403dp"
+        android:layout_height="365dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_001"
+        app:layout_constraintVertical_bias="0.009"
+        app:srcCompat="@drawable/feedback_background" />
+
+    <TextView
+        android:id="@+id/tv_003"
+        android:layout_width="345dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="12dp"
+        android:text="@string/tv_003"
+        android:textColor="#090909"
+        android:textSize="20sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvmageView_002"
+        app:layout_constraintVertical_bias="0.125" />
+
+    <!--    app:layout_constraintTop_toBottomOf="@+id/tv_10" />-->
+
+    <RatingBar
+        android:id="@+id/tvRatingBar_02"
+        android:layout_width="238dp"
+        android:layout_height="48dp"
+        android:contentDescription="@string/tvRatingBar_02"
+        android:progressBackgroundTint="#FFC400"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_003"
+        app:layout_constraintVertical_bias="0.275"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/tvbtn_001"
+        android:layout_width="95dp"
+        android:layout_height="43dp"
+        android:text="NEXT"
+        android:textStyle="bold"
+        android:onClick="goToSendFeedback"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.949"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvRatingBar_02"
+        app:layout_constraintVertical_bias="0.99"
+        tools:ignore="TouchTargetSizeCheck" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
